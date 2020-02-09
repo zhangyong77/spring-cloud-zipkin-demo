@@ -2,6 +2,7 @@
 
 #### 介绍
 
+
 测试成功；
 访问consumer1 --》consumer,json反映了下面的请求逻辑：
 1、consumer1作为服务端接收浏览器请求；
