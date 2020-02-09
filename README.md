@@ -4,15 +4,15 @@
 
 
 测试成功；
-访问consumer1 --》consumer,json反映了下面的请求逻辑：
-1、consumer1作为服务端接收浏览器请求；
-2、consumer1作为客户端访问consumer；
-3、consumer作为服务端被访问；
-通过：http://localhost:9411/zipkin/traces/935540645930e34f可以看到调用的层级关系，每个层级耗时
+* 访问consumer1 --》consumer,json反映了下面的请求逻辑：
+* 1、consumer1作为服务端接收浏览器请求；
+* 2、consumer1作为客户端访问consumer；
+* 3、consumer作为服务端被访问；
+* 通过：http://localhost:9411/zipkin/traces/935540645930e34f可以看到调用的层级关系，每个层级耗时
 
-[json:]
+* [json:]
 
-[
+* [
   {
     "traceId": "935540645930e34f",
     "parentId": "935540645930e34f",
